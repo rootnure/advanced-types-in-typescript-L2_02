@@ -80,15 +80,25 @@
 
 
 
+  /* interface for function in ts */
+
+  type Add1 = (num1: number, num2: number) => number;
+
+  interface Add2 {
+    (num1: number, num2: number): number;
+  }
+
+  /* ================================================================ */
+
+  const add1: Add1 = (num1, num2) => num1 + num2;
+
+  const add2: Add2 = (num1, num2) => num1 + num2;
+
+  console.log({ result1: add1(5, 7), result2: add2(10, 12) });
 
 
 
-
-
-
-
-
-  console.log({ rollNumbers1, rollNumbers2 });
+  // console.log({ rollNumbers1, rollNumbers2 });
   // console.log({ user1, user2, userWithRole1, userWithRole2, userWithRoleAndSalary1 });
   //
 }
