@@ -29,7 +29,6 @@
     salary: number;
   }
 
-
   /* ================================================================ */
 
   const user1: User1 = {
@@ -63,8 +62,33 @@
   }
 
 
+  // in js --> object -> obj, array -> obj, function -> obj
 
 
-  console.log({ user1, user2, userWithRole1, userWithRole2, userWithRoleAndSalary1 });
+  /* interface for array in ts */
+
+  type Roll1 = number[];
+
+  interface Roll2 {
+    [index: number]: number;
+  }
+
+  /* ================================================================ */
+
+  const rollNumbers1: Roll1 = [1, 2, 3, 5, 6];
+  const rollNumbers2: Roll2 = [1, 2, 3, 5, 6];
+
+
+
+
+
+
+
+
+
+
+
+  console.log({ rollNumbers1, rollNumbers2 });
+  // console.log({ user1, user2, userWithRole1, userWithRole2, userWithRoleAndSalary1 });
   //
 }
