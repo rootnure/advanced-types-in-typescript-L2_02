@@ -26,6 +26,21 @@
   }
 
 
+  type Height = AreaNumber["height"]; // lookup type
+
+
+  // T => { height: string; width: number }
+  // key => T["height"],            key => T["width"]
+  type AreaStringDynamic<T> = {
+    [key in keyof T]: T[key];
+  }
+
+
+  const area1: AreaStringDynamic<{ height: string; width: number }> = {
+    height: "100",
+    width: 50,
+  };
+
 
 
 

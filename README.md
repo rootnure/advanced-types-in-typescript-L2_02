@@ -26,3 +26,6 @@
     - await
 - Conditional Types
     - If a variable type is depended on another type then it is a conditional type
+- Mapped types
+    - Update/Create new type using mapped types
+    - Mapped types with Generic
