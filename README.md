@@ -29,3 +29,10 @@
 - Mapped types
     - Update/Create new type using mapped types
     - Mapped types with Generic
+- Utility types
+    - Pick [Pick types from pre-declared type]
+    - Omit [Pick types from pre-declared types except selected property]
+    - Required [Will make property required]
+    - Partial [Will make property value not required]
+    - Readonly [Will make property readonly (value cannot be changed/update)]
+    - Record [Dynamically assign type for object]
