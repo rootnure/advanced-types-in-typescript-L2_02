@@ -19,4 +19,8 @@
     - Function with Generic
     - Tuple in Function with Generic
     - Constraints in TS
-    
+- Asynchronous Typescript
+    - Promise
+    - fetch
+    - async
+    - await
