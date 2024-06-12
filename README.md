@@ -10,4 +10,8 @@
     - To extend property in interface <code>extends</code> keyword is used
     - Interface can extends both ***Type Alias*** and another *interface*
     - ***Interface*** and ***Type Alias*** both can be mix-matched and will work fine
-- 4 Jun 2024
+- Generic
+    - Generic Type
+    - Use Generic Dynamically
+    - Generic in object
+    - Generic in Tuple
