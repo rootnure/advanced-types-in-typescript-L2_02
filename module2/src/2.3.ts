@@ -19,6 +19,41 @@
   add(30, 20);
 
 
+  // Re-use in array of object
+  const user: GenericArray<object> = [
+    {
+      name: 'Nur',
+      age: 25,
+    },
+    {
+      name: 'Ripon',
+      age: '24',
+    },
+    {
+      roll: 'admin',
+    }
+  ]
+
+  // Specify object property with type
+  const newUser: GenericArray<{ name: string; age: number }> = [
+    {
+      name: 'Nur',
+      age: 25,
+    },
+    {
+      name: 'Ripon',
+      age: 24,
+    },
+  ]
+
+
+  // generic tuple
+
+  type GenericTuple<X, Y> = [X, Y];
+
+  const person: GenericTuple<string, string> = ['Mr. X', 'Mrs. Y'];
+
+  const userWithID: GenericTuple<number, { name: string; email: string }> = [41, { name: 'Rifat', email: 'rifat@mail.com' }];
 
 
 
