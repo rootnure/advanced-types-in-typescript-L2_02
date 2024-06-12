@@ -15,4 +15,6 @@
     - Use Generic Dynamically
     - Generic in object
     - Generic in Tuple
-- Generic with Interface
+    - Generic with Interface
+    - Function with Generic
+    - Tuple in Function with Generic
