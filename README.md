@@ -18,3 +18,5 @@
     - Generic with Interface
     - Function with Generic
     - Tuple in Function with Generic
+    - Constraints in TS
+    
