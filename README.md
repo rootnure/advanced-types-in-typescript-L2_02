@@ -15,3 +15,4 @@
     - Use Generic Dynamically
     - Generic in object
     - Generic in Tuple
+- Generic with Interface
