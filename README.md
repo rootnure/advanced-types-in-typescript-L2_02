@@ -24,3 +24,5 @@
     - fetch
     - async
     - await
+- Conditional Types
+    - If a variable type is depended on another type then it is a conditional type
